@@ -72,3 +72,7 @@
 .closeCustomBtn:hover {
   color: red;
 }
+
+.tableCustom {
+  text-align: left;
+}

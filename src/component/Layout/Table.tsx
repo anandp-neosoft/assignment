@@ -31,7 +31,7 @@ const Table: FC<TableProps> = ({ usersData }: TableProps) => {
 
   return (
     <>
-      <table className="table border shadow">
+      <table className="table border shadow tableCustom">
         <thead className="thead">
           <th key="name" scope="col">
             Name
@@ -66,7 +66,7 @@ const Table: FC<TableProps> = ({ usersData }: TableProps) => {
           <tr key="addNewUser">
             <td className="addNewButton" colSpan={3}>
               <Link className="btn" to="/users/add">
-                + Add User
+                + Add Employee Details
               </Link>
             </td>
           </tr>

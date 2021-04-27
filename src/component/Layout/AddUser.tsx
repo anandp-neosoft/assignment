@@ -34,6 +34,9 @@ const AddUser: FC = () => {
    */
   const onSubmit = async (e: any) => {
     e.preventDefault();
+    if (Name === "" && Position === "" && Email === "") {
+      return alert("Please Fill All The Fields");
+    }
     await axios.post(endPoint, user);
     history.push("/");
   };
