@@ -1,10 +1,3 @@
-# To Run This App
-1) 'Npm run json-server' in terminal one for mock data server running
-2) 'Npm start' in terminal two for react-app running
-
-
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
