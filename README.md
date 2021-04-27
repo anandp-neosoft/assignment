@@ -1,3 +1,7 @@
+# Steps to run project.
+1.To Install node modules at loaction of package.json by running command 'npm i' or 'npm install' in command propmpt or terminal
+2.Then do 'npm start' at same location to run the project
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
