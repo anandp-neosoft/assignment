@@ -1,6 +1,3 @@
-/**
- * @author Anand Pawar
- */
 import React, { FC } from "react";
 import { NavLink } from "react-router-dom";
 

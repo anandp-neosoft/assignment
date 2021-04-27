@@ -1,6 +1,3 @@
-/**
- * @author Anand Pawar
- */
 import React, { useState, FC } from "react";
 import Pagination from "./Pagination";
 import { Link } from "react-router-dom";

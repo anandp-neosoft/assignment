@@ -1,6 +1,3 @@
-/**
- * @author Anand Pawar
- */
 import { FC, useState, useCallback } from "react";
 import Button from "react-bootstrap/Button";
 
