@@ -29,7 +29,7 @@ const Counter: FC = () => {
 
   return (
     <div>
-      <h2>Counters Page</h2>
+      <h2>Counter</h2>
       <h1>{count}</h1>
       <Button className="counterButtons" variant="info" onClick={updateCount}>
         Increament

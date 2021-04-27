@@ -41,7 +41,7 @@ const EmployeeDetails: React.FC<User> = ({ users: User }) => {
   return (
     <div className="container">
       <div className="py-4">
-        <h1>Employee Details</h1>
+        <h3>Employee Details</h3>
         {isLoading ? <h3>loading...</h3> : <Table usersData={users} />}
       </div>
     </div>
